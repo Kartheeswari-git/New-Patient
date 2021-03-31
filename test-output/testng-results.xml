@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-31T17:48:15 IST" name="Default suite" finished-at="2021-03-31T17:49:09 IST" duration-ms="54436">
+    <groups>
+    </groups>
+    <test started-at="2021-03-31T17:48:15 IST" name="Default test" finished-at="2021-03-31T17:49:09 IST" duration-ms="54436">
+      <class name="HospitalPortalFlow.new_Patient_Creation">
+        <test-method is-config="true" signature="Extent()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:48:14 IST" name="Extent" finished-at="2021-03-31T17:48:15 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:48:15 IST" name="launch" finished-at="2021-03-31T17:49:08 IST" duration-ms="53618" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maximus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[21-187895100-1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[22/03/2020 11:52 AM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[24/04/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Fever]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[test@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[image,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xlsx,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149439" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Individual]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OG-21-1000-8430-00000004]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[22/03/2020 11:52 AM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[24/04/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Fever]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[test@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[image]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[image,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xlsx,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149445" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Group]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OG-20-1113-8403-00000208]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CLOVER INFOTECH PVT LTD]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21/03/2020 5:15 PM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27/03/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Heart Disease]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543217]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876043210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[SR Ward Suite, 410,411,510,511]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[testr@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xlsx,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149453" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GMC-21111330177-114905B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21/03/2020 5:15 PM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27/03/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Heart Disease]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543217]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876043210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[SR Ward Suite, 410,411,510,511]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[testr@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt,image,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149459" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GMC-21111330177-114905B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21/03/2020 5:15 PM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27/03/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Heart Disease]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543217]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876043210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[SR Ward Suite, 410,411,510,511]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[testr@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt,image,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149466" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GMC-21111330177-114905B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21/03/2020 5:15 PM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27/03/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Heart Disease]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543217]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876043210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[SR Ward Suite, 410,411,510,511]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[testr@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt,image,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149474" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="fill_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-03-31T17:49:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GMC-21111330177-114905B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21/03/2020 5:15 PM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27/03/2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Heart Disease]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9876543217]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9876043210]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[SR Ward Suite, 410,411,510,511]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[testr@berijam.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Passport,Health ID card,Investigation reports,Aadhar Card,Driving Licence,PAN Card]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\Notes\feb 4.txt,image,C:\Users\Ajith\Downloads\INV-CASHLESS-21000031 (1).pdf,E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,E:\Doc upload sample\New folder\HP4.xls,E:\Doc upload sample\New folder\1.sent back by qc2.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.<init>(Lorg/openqa/selenium/WebDriver;Ljava/time/Duration;)V
+at HospitalPortalFlow.new_Patient_Creation.launch(new_Patient_Creation.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_data -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149482" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method is-config="true" signature="close()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@1ed6388a]" started-at="2021-03-31T17:49:09 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617193149725" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HospitalPortalFlow.new_Patient_Creation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

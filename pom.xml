@@ -1,0 +1,130 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Hospital</groupId>
+	<artifactId>Hospital</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+	<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-plugin-api</artifactId>
+    <version>3.6.3</version>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.0.0-beta-2</version>
+</dependency>
+	 <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-firefox-driver</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+<dependency>
+    <groupId>org.openqa.selenium.server</groupId>
+    <artifactId>selenium-server-coreless</artifactId>
+    <version>1.0-20081010.060147</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.3.0</version>
+			<scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.9</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+		<dependency>
+			<groupId>net.sourceforge.jexcelapi</groupId>
+			<artifactId>jxl</artifactId>
+			<version>2.6.12</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>30.1.1-jre</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.30</version>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.squareup.retrofit2/adapter-rxjava3 -->
+		<dependency>
+			<groupId>com.squareup.retrofit2</groupId>
+			<artifactId>adapter-rxjava3</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>bson</artifactId>
+			<version>4.2.0-beta1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.reactivestreams/reactive-streams -->
+		<dependency>
+			<groupId>org.reactivestreams</groupId>
+			<artifactId>reactive-streams</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+	
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.0.0-M5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-report-plugin</artifactId>
+    <version>3.0.0-M5</version>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>2.0.4</version>
+		</dependency>
+
+	</dependencies>
+	<build>
+	    <plugins>
+	
+	<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
+    
+    <configuration>
+        <source>7</source>
+        <target>1.7</target>
+    </configuration>
+</plugin>
+	    </plugins>
+		</build>
+	
+</project>
