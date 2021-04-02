@@ -13,11 +13,13 @@
     <artifactId>maven-plugin-api</artifactId>
     <version>3.6.3</version>
 </dependency>
+
+
 	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.0.0-beta-2</version>
+    <version>3.141.59</version>
 </dependency>
 	 <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
@@ -29,13 +31,20 @@
     <artifactId>selenium-server-coreless</artifactId>
     <version>1.0-20081010.060147</version>
 </dependency>
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
+<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.3.0</version>
+			<version>7.4.0</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency>		
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.4</version>
+    <scope>test</scope>
+</dependency>
+		
 	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
@@ -52,7 +61,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>30.1.1-jre</version>
+    <version>21.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -102,6 +111,12 @@
     <artifactId>maven-surefire-report-plugin</artifactId>
     <version>3.0.0-M5</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <version>3.2.0</version>
+</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
 		<dependency>
@@ -123,6 +138,7 @@
         <source>7</source>
         <target>1.7</target>
     </configuration>
+    
 </plugin>
 	    </plugins>
 		</build>

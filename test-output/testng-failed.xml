@@ -5,9 +5,9 @@
     <classes>
       <class name="HospitalPortalFlow.new_Patient_Creation">
         <methods>
-          <include name="fill_data"/>
-          <include name="Extent"/>
+          <include name="fill_data" invocation-numbers="0"/>
           <include name="launch"/>
+          <include name="Extent"/>
           <include name="screen"/>
           <include name="close"/>
         </methods>

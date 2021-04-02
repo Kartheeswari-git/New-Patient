@@ -1,3 +1,4 @@
+//
 package HospitalPortalFlow;
 
 import java.awt.AWTException;
@@ -9,14 +10,18 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.time.Duration;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -43,8 +48,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
-import pageObjectModel.ForDashboardFields;
-import pageObjectModel.NewPatientFields;
+import pageObjectModel.*;
 
 
 public class new_Patient_Creation extends Common implements ITestListener {
@@ -121,7 +125,7 @@ htmlReporter = new ExtentHtmlReporter("./Report/New Patient Creation.html");
 
 		driver = new FirefoxDriver(options);
 		driver.get("https://hportal.bagicuat.bajajallianz.com/#/");
-		wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+		 wait = new WebDriverWait(driver, 9000);
 
 		// LOGIN
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
@@ -145,7 +149,7 @@ htmlReporter = new ExtentHtmlReporter("./Report/New Patient Creation.html");
 
 		Opus=test.createNode("<b> Opus Records Creation</b>");
 		InValid=test.createNode("<b> Invalid Data Testing</b>");
-
+System.out.println("Done");
 	}
 
 	@Test(dataProvider = "datapass", priority = 1)
@@ -1087,7 +1091,7 @@ if (Path.contentEquals("image")) {
 		if((MaxOpus.contentEquals("Maximus"))&&(ValidInvalid.contentEquals("Valid"))) {
 		if ((PolicyType.contentEquals("Individual"))||(PolicyType.contentEquals("Group")))
 			{
-			Maximus.fail(""+PolicyNum+" is Failed",MediaEntityBuilder.createScreenCaptureFromBase64String(screenshotPAth).build());
+			Maximus.fail(""+PolicyNum+" is Failed").addScreenCaptureFromPath(screenshotPAth);
 		//	Fail_Maximus.assignCategory("Individual","Maximus");
 			}
 		else if ((PolicyType.contentEquals("Group")))
@@ -1203,7 +1207,7 @@ if (Path.contentEquals("image")) {
 	}
 	@AfterSuite
 	public void close() {
-	//	extent.flush();
+		extent.flush();
 		System.out.println("AfterSuite");
 		driver.manage().deleteAllCookies();
 
@@ -1211,5 +1215,13 @@ if (Path.contentEquals("image")) {
 	}
 
 	
-	
+	public static String takeScreenshot(WebDriver driver, String Screenshotname) throws IOException {
+		String datename=new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
+TakesScreenshot ts=(TakesScreenshot) driver;
+File source=ts.getScreenshotAs(OutputType.FILE);
+String dest=System.getProperty("user.dir")+"/Failedscreenshot/"+Screenshotname+datename+".png";
+File finaldest=new File(dest);
+FileUtils.copyFile(source, finaldest);
+return dest;
+	}
 }

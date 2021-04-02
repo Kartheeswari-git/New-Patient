@@ -112,7 +112,7 @@ public void launch() throws InterruptedException, AWTException {
 
 	driver = new FirefoxDriver(options);
 	driver.get("https://hportal.bagicuat.bajajallianz.com/#/");
-	wait = new WebDriverWait(driver, Duration.ofSeconds(120, 1));
+	wait = new WebDriverWait(driver, 9000);
 
 
 	// LOGIN

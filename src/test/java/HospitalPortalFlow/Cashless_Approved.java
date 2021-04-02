@@ -9,7 +9,6 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -37,8 +36,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
-import pageObjectModel.ForDashboardFields;
-import pageObjectModel.NewPatientFields;
+import pageObjectModel.*;
 
 public class Cashless_Approved extends Common{
 
@@ -123,7 +121,7 @@ public void launch() throws InterruptedException, AWTException {
 
 	driver = new FirefoxDriver(options);
 	driver.get("https://hportal.bagicuat.bajajallianz.com/#/");
-	wait = new WebDriverWait(driver, Duration.ofSeconds(120, 1));
+	wait = new WebDriverWait(driver, 9000);
 
 
 	// LOGIN
