@@ -9,10 +9,15 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -22,19 +27,22 @@ import pageObjectModel.ForDashboardFields;
 import pageObjectModel.NewPatientFields;
 
 public class Common {
-	public Robot robot;
+	public Robot robot, robot1;
 	public static WebDriver driver;
 	ExtentTest node;
 	public ExtentReports extent;
 	public ExtentHtmlReporter htmlReporter;
 	public ExtentTest test;
+	public WebDriverWait wait;
+	
 	
 
+
 	public void zoomout() throws AWTException {
-	robot.keyPress(KeyEvent.VK_CONTROL);
-	robot.keyPress(KeyEvent.VK_MINUS);
-	robot.keyRelease(KeyEvent.VK_MINUS);
-	robot.keyRelease(KeyEvent.VK_CONTROL);
+	robot1.keyPress(KeyEvent.VK_CONTROL);
+	robot1.keyPress(KeyEvent.VK_MINUS);
+	robot1.keyRelease(KeyEvent.VK_MINUS);
+	robot1.keyRelease(KeyEvent.VK_CONTROL);
 }
 	
 	public void docupload() {

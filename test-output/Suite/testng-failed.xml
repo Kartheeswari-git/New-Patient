@@ -5,13 +5,31 @@
     <classes>
       <class name="HospitalPortalFlow.new_Patient_Creation">
         <methods>
-          <include name="fill_data"/>
-          <include name="Extent"/>
           <include name="launch"/>
+          <include name="fill_data" invocation-numbers="0"/>
+          <include name="Extent"/>
           <include name="screen"/>
           <include name="close"/>
         </methods>
       </class> <!-- HospitalPortalFlow.new_Patient_Creation -->
+      <class name="HospitalPortalFlow.Cashless_Approved">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+          <include name="screen"/>
+          <include name="reply" invocation-numbers="0"/>
+          <include name="extentrep"/>
+        </methods>
+      </class> <!-- HospitalPortalFlow.Cashless_Approved -->
+      <class name="HospitalPortalFlow.Query">
+        <methods>
+          <include name="close"/>
+          <include name="extentrep"/>
+          <include name="launch"/>
+          <include name="screen"/>
+          <include name="reply" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- HospitalPortalFlow.Query -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

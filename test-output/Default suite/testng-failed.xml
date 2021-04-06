@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HospitalPortalFlow.new_Patient_Creation">
+      <class name="HospitalPortalFlow.Query">
         <methods>
-          <include name="fill_data" invocation-numbers="0"/>
-          <include name="launch"/>
-          <include name="Extent"/>
-          <include name="screen"/>
           <include name="close"/>
+          <include name="extentrep"/>
+          <include name="screen"/>
+          <include name="reply" invocation-numbers="0 1"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- HospitalPortalFlow.new_Patient_Creation -->
+      </class> <!-- HospitalPortalFlow.Query -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

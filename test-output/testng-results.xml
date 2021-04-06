@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="0" failed="1" skipped="6">
+<testng-results ignored="2" total="13" passed="0" failed="3" skipped="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-02T18:13:44 IST" name="Default suite" finished-at="2021-04-02T18:14:04 IST" duration-ms="20294">
+  <suite started-at="2021-04-06T19:47:55 IST" name="Suite" finished-at="2021-04-06T19:48:09 IST" duration-ms="14038">
     <groups>
     </groups>
-    <test started-at="2021-04-02T18:13:44 IST" name="Default test" finished-at="2021-04-02T18:14:04 IST" duration-ms="20294">
+    <test started-at="2021-04-06T19:47:55 IST" name="Test" finished-at="2021-04-06T19:48:09 IST" duration-ms="14038">
       <class name="HospitalPortalFlow.new_Patient_Creation">
-        <test-method is-config="true" signature="Extent()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:13:44 IST" name="Extent" finished-at="2021-04-02T18:13:44 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="Extent()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:47:55 IST" name="Extent" finished-at="2021-04-06T19:47:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Extent -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:13:44 IST" name="launch" finished-at="2021-04-02T18:14:01 IST" duration-ms="16818" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:01 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="3241" status="FAIL">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:06 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="3010" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -123,40 +119,11 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to decode response from marionette
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-*** Element info: {Using=partial link text, value=New Patie}]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-*** Element info: {Using=partial link text, value=New Patie}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
-at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+              <![CDATA[java.lang.NullPointerException
 at pageObjectModel.NewPatientFields.new_patient_tab(NewPatientFields.java:16)
-at HospitalPortalFlow.new_Patient_Creation.fill_data(new_Patient_Creation.java:169)
+at HospitalPortalFlow.new_Patient_Creation.fill_data(new_Patient_Creation.java:133)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,48 +154,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="2021-04-02T18:14:04 IST" duration-ms="5" status="FAIL">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="2021-04-06T19:48:09 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fill_data status=FAILURE method=new_Patient_Creation.fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce] output={null}]]]>
+                <![CDATA[[TestResult name=fill_data status=FAILURE method=new_Patient_Creation.fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -264,11 +206,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -376,36 +318,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -441,15 +358,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444825" status="SKIP">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689758" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -557,36 +474,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -622,15 +514,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444828" status="SKIP">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689774" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -738,36 +630,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -803,15 +670,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444831" status="SKIP">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689781" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -919,36 +786,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -984,15 +826,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444834" status="SKIP">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689789" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1100,36 +942,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1165,15 +982,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444837" status="SKIP">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689796" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-02T18:14:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="fill_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="fill_data" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1281,36 +1098,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'KARTHEESWARI-PC', ip: '192.168.103.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10936, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a8aae94-b177-4732-b7cc-ffa5f76bf093
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1221)
-at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1089)
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.new_Patient_Creation.takeScreenshot(new_Patient_Creation.java:1185)
+at HospitalPortalFlow.new_Patient_Creation.screen(new_Patient_Creation.java:1053)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1346,19 +1138,811 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_data -->
-        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444840" status="SKIP">
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689810" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screen -->
-        <test-method is-config="true" signature="close()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@2e385cce]" started-at="2021-04-02T18:14:04 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617367444895" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:HospitalPortalFlow.new_Patient_Creation@55a147cc]" started-at="2021-04-06T19:48:09 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689987" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- HospitalPortalFlow.new_Patient_Creation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="HospitalPortalFlow.Cashless_Approved">
+        <test-method is-config="true" signature="extentrep()[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e]" started-at="2021-04-06T19:47:55 IST" name="extentrep" finished-at="2021-04-06T19:47:55 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentrep -->
+        <test-method signature="reply(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e]" started-at="2021-04-06T19:48:09 IST" name="reply" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maximus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OC-21-1002-8407-00000048]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Final]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2500]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Discharge Summary,DAMA or LAMA Summary,Death Summary,Day Care Summary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[image, E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,C:\Users\Ajith\Documents\HP_Status change.xlsx, E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[C:\Users\Ajith\Documents\HP_Status change.xlsx]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Other,Indoor Case paper,Investigation reports,Death Summary 2,Day care summary 2,Final Bill 2,Discharge Summary 2,DAMA or LAMA Summary 2]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[image, E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,C:\Users\Ajith\Documents\HP_Status change.xlsx, E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,C:\Users\Ajith\Documents\HP_Status change.xlsx, E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls,C:\Users\Ajith\Documents\HP_Status change.xlsx, E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xls]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.Cashless_Approved.reply(Cashless_Approved.java:156)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="2021-04-06T19:48:09 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reply status=FAILURE method=Cashless_Approved.reply(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.Common.takeScreenshot(Common.java:126)
+at HospitalPortalFlow.Cashless_Approved.screen(Cashless_Approved.java:1134)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="reply(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e]" started-at="2021-04-06T19:48:09 IST" name="reply" data-provider="datapass" finished-at="2021-04-06T19:48:09 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OC-21-1002-8407-00000049]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Interim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Document]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xlsx]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[image]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xlsx]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Document]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[E:\Doc upload sample\New folder\Report Page - Field level validation sheet.xlsx]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.Common.takeScreenshot(Common.java:126)
+at HospitalPortalFlow.Cashless_Approved.screen(Cashless_Approved.java:1134)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e]" started-at="2021-04-06T19:48:09 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689908" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method is-config="true" signature="close()[pri:0, instance:HospitalPortalFlow.Cashless_Approved@71ba6d4e]" started-at="2021-04-06T19:48:09 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689979" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HospitalPortalFlow.Cashless_Approved -->
+      <class name="HospitalPortalFlow.Query">
+        <test-method is-config="true" signature="extentrep()[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:47:55 IST" name="extentrep" finished-at="2021-04-06T19:47:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentrep -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:47:55 IST" name="launch" finished-at="2021-04-06T19:48:06 IST" duration-ms="10550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="reply(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:48:06 IST" name="reply" data-provider="datapass" finished-at="2021-04-06T19:48:06 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maximus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200014328P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Image]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Document]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[E:\Doc upload sample\Supported_format\New folder\Report Page - Field level validation sheet.xlsx]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Image]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Image]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.Query.reply(Query.java:163)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:48:06 IST" name="screen" finished-at="2021-04-06T19:48:06 IST" duration-ms="10" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reply status=FAILURE method=Query.reply(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.Common.takeScreenshot(Common.java:126)
+at HospitalPortalFlow.Query.screen(Query.java:518)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="reply(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:48:06 IST" name="reply" data-provider="datapass" finished-at="2021-04-06T19:48:06 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[210000237P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Document]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[E:\Doc upload sample\Supported_format\New folder\Report Page - Field level validation sheet.xlsx]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Document]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[E:\Doc upload sample\Supported_format\New folder\Report Page - Field level validation sheet.xlsx]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Image]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Kindly provide Confirm final diagnosis from treating doctor with Investigation reports to support the diagnosis.]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Image]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at HospitalPortalFlow.Common.takeScreenshot(Common.java:126)
+at HospitalPortalFlow.Query.screen(Query.java:518)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:48:06 IST" name="screen" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718686621" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method is-config="true" signature="close()[pri:0, instance:HospitalPortalFlow.Query@6c1a5b54]" started-at="2021-04-06T19:48:09 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1617718689984" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HospitalPortalFlow.Query -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
